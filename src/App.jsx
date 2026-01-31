@@ -4,7 +4,7 @@ function App() {
 
   return (
     <>
-      <marquee behavior="" direction="">Under Development.. Launching soon</marquee>
+      <marquee behavior="" direction="">Contact Mr Vinit Maanju : 9116714113 ...Under Development.. Launching soon</marquee>
     </>
   )
 }
