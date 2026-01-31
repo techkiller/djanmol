@@ -22,10 +22,7 @@ const App = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-20">
             <div className="flex-shrink-0 cursor-pointer" onClick={() => window.scrollTo(0, 0)}>
-              <h1 className="text-2xl font-bold bg-gradient-to-r from-purple-400 to-pink-600 bg-clip-text text-transparent">
-                DJ ANMOL
-                <span className="block text-xs text-gray-400 tracking-widest font-medium">JHUNJHUNU</span>
-              </h1>
+              <img className='logo' src="large.png" alt="logo" />
             </div>
             
             {/* Desktop Menu */}
@@ -236,11 +233,11 @@ const App = () => {
                 <div className="space-y-6">
                   <div className="flex items-center gap-4 text-gray-300">
                     <Phone className="text-purple-500" />
-                    <span>+91 98765 43210</span>
+                    <span>+91 91167 04113</span>
                   </div>
                   <div className="flex items-center gap-4 text-gray-300">
                     <Mail className="text-purple-500" />
-                    <span>booking@djanmol.com</span>
+                    <span>booking@djanmoljhunjhunu.in</span>
                   </div>
                   <div className="flex items-center gap-4 text-gray-300">
                     <MapPin className="text-purple-500" />
@@ -252,7 +249,7 @@ const App = () => {
               <div className="mt-12">
                 <h4 className="font-bold mb-4">Follow Us</h4>
                 <div className="flex gap-4">
-                  <a href="#" className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-purple-600 transition-colors"><Instagram size={20} /></a>
+                  <a href="https://www.instagram.com/dj_anmol_jhunjhunu/" className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-purple-600 transition-colors"><Instagram size={20} /></a>
                   <a href="#" className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-blue-600 transition-colors"><Facebook size={20} /></a>
                 </div>
               </div>
@@ -293,7 +290,7 @@ const App = () => {
 
       {/* --- Footer --- */}
       <footer className="bg-gray-900 border-t border-gray-800 py-8 text-center text-gray-500 text-sm">
-        <p>© 2024 Dj Anmol Jhunjhunu. All rights reserved.</p>
+        <p>© 2026 Dj Anmol Jhunjhunu. All rights reserved.</p>
       </footer>
 
     </div>
